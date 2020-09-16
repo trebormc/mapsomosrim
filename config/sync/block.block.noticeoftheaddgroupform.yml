@@ -1,0 +1,31 @@
+uuid: 72a47fab-7193-485c-ab61-426645d95998
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text:6d78ea04-8699-4b99-aab5-713a8361daa6'
+  module:
+    - block_content
+    - system
+  theme:
+    - map
+id: noticeoftheaddgroupform
+theme: map
+region: pre_content
+weight: -7
+provider: null
+plugin: 'block_content:6d78ea04-8699-4b99-aab5-713a8361daa6'
+settings:
+  id: 'block_content:6d78ea04-8699-4b99-aab5-713a8361daa6'
+  label: 'Notice of the "Add Group" form'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/add/group
+    negate: false
+    context_mapping: {  }
