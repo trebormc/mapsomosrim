@@ -2,8 +2,6 @@ uuid: eac39560-30c3-44ed-a439-af440c2c169e
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.page
   module:
     - node
     - translation_views
@@ -601,8 +599,7 @@ display:
           group_type: group
           admin_label: ''
           operator: in
-          value:
-            page: page
+          value: {  }
           group: 1
           exposed: true
           expose:
@@ -621,6 +618,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+              editor: '0'
             reduce: false
           is_grouped: false
           group_info:

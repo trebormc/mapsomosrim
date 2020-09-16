@@ -13,6 +13,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create group content'
   - 'create prints content'
   - 'create services content'
   - 'delete own prints content'

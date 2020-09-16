@@ -12,6 +12,7 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create group content'
   - 'search content'
   - 'view calendar data for any availability_daily event'
   - 'view calendar data for any availability_hourly event'
